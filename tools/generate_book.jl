@@ -95,6 +95,7 @@ end
 
 book_model = [
     Section(1,1,"Basic", "notebooks/Basic.jl")
+    Section(1,2,"Plots", "notebooks/plot.jl")
 ]
 
 for section ∈ book_model
