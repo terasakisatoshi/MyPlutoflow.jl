@@ -16,7 +16,7 @@ generate_rss = true
 website_title = "My Pluto notebooks"
 website_descr = "Example website using Pluto and Franklin"
 website_url   = "https://terasakisatoshi.github.io/MyPlutoflow.jl"
-@def prepath = "MyPlutoflow.jl"
+prepath = "MyPlutoflow.jl"
 +++
 
 <!--
