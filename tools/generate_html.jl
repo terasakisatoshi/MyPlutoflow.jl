@@ -1,4 +1,3 @@
-using PlutoSliderServer
 
 if !isdir("pluto_deploy_env")
      error("""
@@ -10,6 +9,7 @@ end
 using Pkg
 Pkg.activate("./pluto_deploy_env")
 Pkg.instantiate()
+using PlutoSliderServer
 
 cd("notebooks")
 # all kwargs can be specified in PlutoDeployment.toml
