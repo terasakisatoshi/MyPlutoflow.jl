@@ -13,9 +13,9 @@ ignore = ["node_modules/", "__cache/", "pluto_deploy_env/", "tools/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "Franklin Template"
-website_descr = "Example website using Franklin"
-website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
+website_title = "My Pluto notebooks"
+website_descr = "Example website using Pluto and Franklin"
+website_url   = "https://tlienart.github.io/pluto_notebooks_on_franklin"
 +++
 
 <!--
