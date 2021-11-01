@@ -1,4 +1,6 @@
 __site/
+__cache/
 .DS_Store
 node_modules/
+Manifest.toml
 package-lock.json
