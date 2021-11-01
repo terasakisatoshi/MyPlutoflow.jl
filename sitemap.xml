@@ -20,6 +20,18 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://terasakisatoshi.github.io/MyPlutoflow.jl/website/plot/index.html</loc>
+    <lastmod>2021-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://terasakisatoshi.github.io/MyPlutoflow.jl/notebooks/plot/</loc>
+    <lastmod>2021-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://terasakisatoshi.github.io/MyPlutoflow.jl/notebooks/Basic/</loc>
     <lastmod>2021-11-01</lastmod>
     <changefreq>monthly</changefreq>
