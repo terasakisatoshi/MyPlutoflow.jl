@@ -1,11 +1,15 @@
-# Pluto.jl meets Franklin.jl
+# MyPlutoflow.jl (Pluto.jl meets Franklin.jl)
+
+## Setup(only once)
 
 ```console
-$ julia --project=pluto_deploy_env pluto_deploy_env/generate_html.jl
+$ git clone https://github.com/terasakisatoshi/MyPlutoflow.jl.git
+$ cd MyPlutoflow.jl
+$ make
 ```
+
+## Run the web page locally
 
 ```console
-$ julia -q
-julia> using Franklin; serve()
+make web && make franklin
 ```
-
