@@ -4,3 +4,7 @@ __cache/
 node_modules/
 Manifest.toml
 package-lock.json
+
+# notebooks
+notebooks/**/*.html
+website/
