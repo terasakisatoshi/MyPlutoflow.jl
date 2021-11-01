@@ -15,7 +15,7 @@ ignore = ["node_modules/", "__cache/", "pluto_deploy_env/", "tools/"]
 generate_rss = true
 website_title = "My Pluto notebooks"
 website_descr = "Example website using Pluto and Franklin"
-website_url   = "https://tlienart.github.io/pluto_notebooks_on_franklin"
+website_url   = "https://tlienart.github.io/MyPlutoflow.jl"
 +++
 
 <!--
