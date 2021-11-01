@@ -56,7 +56,7 @@ This assumes that all path's are relative to the repo root and that we are writi
 function write_md_page(path::String)
     file_name = basename(without_dotjl(path))
     outpath = "website/$file_name.md"
-    write(outpath, "{{ plutonotebookpage  website/$file_name }}")
+    write(outpath, "{{ plutonotebookpage  /notebooks/$file_name }}")
 end
 
 function process_book_item(section::Section)

@@ -1,4 +1,4 @@
 [Export]
-output_dir = "../website"
+output_dir = "../notebooks"
 cache_dir = "../__cache"
 create_index = false
