@@ -4,6 +4,9 @@
 using Markdown
 using InteractiveUtils
 
+# ╔═╡ 59c831e4-3b12-11ec-2a74-abb04b716820
+
+
 # ╔═╡ fae3fa10-3b10-11ec-22ad-8d721eef9e1f
 
 
@@ -40,6 +43,7 @@ seq = n .^ -2
 sqrt(sum(seq) * 6.0)
 
 # ╔═╡ Cell order:
+# ╟─59c831e4-3b12-11ec-2a74-abb04b716820
 # ╟─fae3fa10-3b10-11ec-22ad-8d721eef9e1f
 # ╟─a38cfb68-3b10-11ec-0f31-27172c3a67c7
 # ╟─3049a854-3b10-11ec-17c3-2bd1d28fb0d7

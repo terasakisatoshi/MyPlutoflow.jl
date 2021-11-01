@@ -59,11 +59,6 @@ function write_md_page(path::String)
     write(outpath, "{{ plutonotebookpage  website/$file_name }}")
 end
 
-function html_header(section::Section)
-    return ""
-end
-
-
 function process_book_item(section::Section)
     println(section.notebook_path)
     notebook  = Pluto.load_notebook_nobackup(section.notebook_path)
@@ -71,22 +66,9 @@ function process_book_item(section::Section)
 
     # First, add the header to each cell
     first_cell = ordered_cells[1]
-    new_cell_code = html_header(section)
 
     cells_dict = getfield(notebook, :cells_dict)
     cell_order = getfield(notebook, :cell_order)
-
-    if occursin("<iframe src=\"https://www.youtube", first_cell.code) || occursin("# Section header", first_cell.code)
-        # We can just overwrite this cell
-        first_cell.code = new_cell_code
-        first_cell.code_folded = true
-    else
-        # We get to add a new cell
-        new_cell = Pluto.Cell(new_cell_code)
-        new_cell.code_folded = true
-        push!(cells_dict,new_cell.cell_id => new_cell)
-        insert!(cell_order, 1, new_cell.cell_id)
-    end
 
     # Second hide all md, html cells
     for cell ∈ ordered_cells
