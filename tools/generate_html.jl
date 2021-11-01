@@ -7,5 +7,10 @@ if !isdir("pluto_deploy_env")
     """)
 end
 
+using Pkg
+Pkg.activate("./pluto_deploy_env")
+Pkg.instantiate()
+
 cd("notebooks")
-export_directory(Export_cache_dir="../__cache")
+# all kwargs can be specified in PlutoDeployment.toml
+export_directory()

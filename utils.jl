@@ -6,7 +6,6 @@ function hfun_plutonotebookpage(params)
     else
         path * ".html"
     end
-
     # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy#directives
 
     return """

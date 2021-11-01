@@ -1,2 +1,4 @@
 [Export]
+output_dir = "../website"
+cache_dir = "../__cache"
 create_index = false
