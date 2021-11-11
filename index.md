@@ -1,15 +1,11 @@
-@def title = "Franklin Example"
+@def title = "MyPlutoflow"
 @def tags = ["syntax", "code"]
 
-# How to use Franklin
+# Welcome to MyPlutoflow.jl
 
-\tableofcontents <!-- you can use \toc as well -->
+- This webiste provides some notebooks based on Pluto.jl. You can see them from sidebar of this page.
 
-This section is meant as a refresher if you're new to Franklin.
-Have a look at both how the website renders and the corresponding markdown (`index.md`).
-Modify at will to get a feeling for how things work!
+# Notebooks
 
-Ps: if you want to modify the header or footer or the general look of the website, adjust the files in
-* `src/_css/` and
-* `src/_html_parts/`.
-
+- [Basic](website/Basic)
+- [Plots](website/plot)
